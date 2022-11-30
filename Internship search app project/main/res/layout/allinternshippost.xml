@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internship Title"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="5dp"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/all_internship_posts_title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="28 November 2022"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/grey"
+            android:id="@+id/all_internship_posts_date"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Description"
+            android:maxLines="10"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black"
+            android:id="@+id/all_internship_posts_desc"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Skills"
+            android:maxLines="3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black"
+            android:id="@+id/all_internship_posts_skills"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Company"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black"
+            android:id="@+id/all_internship_posts_company"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Duration"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black"
+            android:id="@+id/all_internship_posts_duration"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
